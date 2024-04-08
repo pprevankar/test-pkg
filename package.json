@@ -1,0 +1,26 @@
+{
+  "name": "@pprevankar/test-pkg",
+  "version": "1.0.0",
+  "description": "Checking for private package creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprevankar/test-pkg.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/pprevankar"
+  },
+  "keywords": [
+    "testPKG"
+  ],
+  "author": "cret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprevankar/test-pkg/issues"
+  },
+  "homepage": "https://github.com/pprevankar/test-pkg#readme"
+}
+
