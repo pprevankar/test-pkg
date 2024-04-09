@@ -6,6 +6,9 @@
   "scripts": {
     "test": "exit 0"
   },
+  "dependencies": {
+    "private-repo": "git+ssh://git@github.com:pprevankar/test-pkg.git#v1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pprevankar/test-pkg.git"
@@ -21,6 +24,6 @@
   "bugs": {
     "url": "https://github.com/pprevankar/test-pkg/issues"
   },
-  "homepage": "https://github.com/pprevankar/test-pkg#readme"
+  "homepage": "https://github.com/pprevankar/test-pkg#readme",
+  "private": true
 }
-
