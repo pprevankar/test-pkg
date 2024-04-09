@@ -7,7 +7,7 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "private-repo": "git+ssh://git@github.com:pprevankar/test-pkg.git#v1.0.0"
+    "private-repo": "git+ssh://git@github.com:pprevankar/test-pkg.git"
   },
   "repository": {
     "type": "git",
